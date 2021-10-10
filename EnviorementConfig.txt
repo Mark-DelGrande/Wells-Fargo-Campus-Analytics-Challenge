@@ -1,0 +1,76 @@
+Name: pandas
+Version: 1.1.5
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: https://pandas.pydata.org
+Author: None
+Author-email: None
+License: BSD
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: pytz, numpy, python-dateutil
+Required-by: xarray, vega-datasets, statsmodels, sklearn-pandas, seaborn, pymc3, plotnine, pandas-profiling, pandas-gbq, pandas-datareader, mlxtend, mizani, holoviews, gspread-dataframe, google-colab, fix-yahoo-finance, fbprophet, fastai, cufflinks, cmdstanpy, arviz, altair
+
+Name: numpy
+Version: 1.19.5
+Summary: NumPy is the fundamental package for array computing with Python.
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email: None
+License: BSD
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: 
+Required-by: yellowbrick, xgboost, xarray, wordcloud, torchvision, torchtext, tifffile, thinc, Theano-PyMC, tensorflow, tensorflow-probability, tensorflow-hub, tensorflow-datasets, tensorboard, tables, statsmodels, spacy, sklearn-pandas, seaborn, scs, scipy, scikit-learn, resampy, qdldl, PyWavelets, python-louvain, pystan, pysndfile, pymc3, pyerfa, pyemd, pyarrow, plotnine, patsy, pandas, osqp, opt-einsum, opencv-python, opencv-contrib-python, numexpr, numba, nibabel, netCDF4, moviepy, mlxtend, mizani, missingno, matplotlib, matplotlib-venn, lightgbm, librosa, Keras-Preprocessing, kapre, jpeg4py, jaxlib, jax, imgaug, imbalanced-learn, imageio, hyperopt, holoviews, h5py, gym, gensim, folium, fix-yahoo-finance, fbprophet, fastprogress, fastdtw, fastai, fa2, eli5, ecos, daft, cvxpy, cufflinks, cmdstanpy, cftime, Bottleneck, bokeh, blis, autograd, atari-py, astropy, arviz, altair, albumentations
+
+Name: seaborn
+Version: 0.11.2
+Summary: seaborn: statistical data visualization
+Home-page: https://seaborn.pydata.org
+Author: Michael Waskom
+Author-email: mwaskom@gmail.com
+License: BSD (3-clause)
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: scipy, pandas, numpy, matplotlib
+Required-by: missingno
+
+Name: matplotlib
+Version: 3.2.2
+Summary: Python plotting package
+Home-page: https://matplotlib.org
+Author: John D. Hunter, Michael Droettboom
+Author-email: matplotlib-users@python.org
+License: PSF
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: numpy, python-dateutil, cycler, kiwisolver, pyparsing
+Required-by: yellowbrick, seaborn, scikit-image, pycocotools, plotnine, pandas-profiling, mlxtend, mizani, missingno, matplotlib-venn, keras-vis, imgaug, fbprophet, fastai, descartes, daft, arviz
+
+Name: xgboost
+Version: 0.90
+Summary: XGBoost Python Package
+Home-page: https://github.com/dmlc/xgboost
+Author: None
+Author-email: None
+License: Apache-2.0
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: scipy, numpy
+Required-by: 
+
+Name: sklearn
+Version: 0.0
+Summary: A set of python modules for machine learning and data mining
+Home-page: https://pypi.python.org/pypi/scikit-learn/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: None
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: scikit-learn
+Required-by: 
+
+Name: eli5
+Version: 0.11.0
+Summary: Debug machine learning classifiers and explain their predictions
+Home-page: https://github.com/eli5-org/eli5
+Author: Mikhail Korobov, Konstantin Lopuhin
+Author-email: kmike84@gmail.com, kostia.lopuhin@gmail.com
+License: MIT license
+Location: /usr/local/lib/python3.7/dist-packages
+Requires: attrs, jinja2, scipy, tabulate, graphviz, numpy, scikit-learn, six
+Required-by: 
