@@ -43,7 +43,7 @@ Percentage of Account the Transaction is For
 
 Next I wanted to look at what percentage of the account was being
 withdrawn. For example I would think that if the entire account balance
-was being withdrawn and one transaction that would raise some red flags.
+was being withdrawn in one transaction that would raise some red flags.
 In addition to this I use the TRAN\_AMT and ACCT\_PRE\_TRAN\_AVAIL\_BAL
 to understand how much money this percentage was worth.
 
