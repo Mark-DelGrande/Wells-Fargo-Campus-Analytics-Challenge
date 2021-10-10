@@ -97,5 +97,10 @@ the score given to this data and the reasoning behind the score. It
 scored a -6.688 and this means the model was 99.9% sure that this was
 not a fraudulent transaction. ![](image1.png)
 
-![](image6.png "footer graphic")
 
+Flow Chart 
+====================
+
+![](image7.png)
+
+![](image6.png "footer graphic")
